@@ -1,8 +1,8 @@
 require "spec_helper"
 
-describe SpfChecker do
+describe SPF do
   it "has a version number" do
-    expect(SpfChecker::VERSION).not_to be nil
+    expect(SPF::VERSION).not_to be nil
   end
 
   it "does something useful" do
